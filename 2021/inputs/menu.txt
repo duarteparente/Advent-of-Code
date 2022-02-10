@@ -1,0 +1,20 @@
+
+
+======================== Advent of Code 2021 ========================
+
+ Days:
+
+       1 - Sonar Sweep
+       2 - Dive!
+       3 - Binary Diagnostic
+       4 - Giant Squid
+       5 - Hydrothermal Venture
+       6 - Lanternfish
+       7 - The Treachery of Whales
+       8 - Seven Segment Search
+       9 - Smoke Basin
+      10 - Syntax Scoring
+      11 - Dumbo Octupus
+      
+      
+ 
