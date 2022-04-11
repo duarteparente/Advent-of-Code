@@ -84,7 +84,7 @@ void day9(){
     M *mat = create_matrix();
     char *line = NULL;
     size_t len = 0;
-    FILE *day9_file = fopen("inputs/day9.txt", "r");
+    FILE *day9_file = fopen("inputs/day09.txt", "r");
     getline(&line, &len, day9_file);
     int length = strlen(line)-1;
     mat->col = length;

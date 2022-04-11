@@ -11,7 +11,7 @@ void day2 (){
     int horizontal = 0, depth = 0;
     char *line = NULL;
     size_t len = 0;
-    FILE *day2_file = fopen("inputs/day2.txt", "r");
+    FILE *day2_file = fopen("inputs/day02.txt", "r");
     while(getline(&line, &len, day2_file) != -1){
         int t = strlen(line);
         switch (line[0]){

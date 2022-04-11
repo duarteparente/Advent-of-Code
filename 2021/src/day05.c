@@ -29,7 +29,7 @@ void day5(){
     }
     char *line = NULL;
     size_t len = 0;
-    FILE *day5_file = fopen("inputs/day5.txt", "r");
+    FILE *day5_file = fopen("inputs/day05.txt", "r");
     while (getline(&line, &len, day5_file) != -1){
         x1 = line[0] - '0'; y1 = line[2] - '0';
         x2 = line[7] - '0'; y2 = line[9] - '0';

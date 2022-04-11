@@ -12,7 +12,7 @@ void day8(){
     char *line = NULL;
     int counter = 0;
     size_t len = 0;
-    FILE *day8_file = fopen("inputs/day8.txt", "r");
+    FILE *day8_file = fopen("inputs/day08.txt", "r");
     while(getline(&line, &len, day8_file) != -1){
         for(int i=0; i<11;i++) strsep(&line, " ");
         for(int i=0; i<4; i++){

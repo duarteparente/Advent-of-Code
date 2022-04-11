@@ -81,7 +81,7 @@ void day4(){
     int counter = 0, n = 0, length = 1; 
     char *line = NULL;
     size_t len = 0;
-    FILE *day4_file = fopen("inputs/day4.txt", "r");
+    FILE *day4_file = fopen("inputs/day04.txt", "r");
     getline(&line, &len, day4_file);
     int t_draw = count_commas(line)+1;
     int draw[t_draw], j=0;

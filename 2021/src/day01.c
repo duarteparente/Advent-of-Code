@@ -8,7 +8,7 @@ void day1 (){
     int contador = 0;
     char *line = NULL;
     size_t len = 0;
-    FILE *day1_file = fopen("inputs/day1.txt", "r");
+    FILE *day1_file = fopen("inputs/day01.txt", "r");
     getline(&line, &len, day1_file);
     int nr0 = atoi(line);
     while(getline(&line, &len, day1_file) != -1){

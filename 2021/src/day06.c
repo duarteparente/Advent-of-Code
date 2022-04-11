@@ -12,7 +12,7 @@ void day6(){
     int *fish = NULL;
     char *line = NULL;
     size_t len = 0;
-    FILE *day6_file = fopen("inputs/day6.txt", "r");
+    FILE *day6_file = fopen("inputs/day06.txt", "r");
     getline(&line, &len, day6_file);
     int lenght = 0, days = 1, r=0;
     int size = strlen(line)-1;

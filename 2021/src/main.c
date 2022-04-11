@@ -18,6 +18,7 @@ int main(){
         case 9: day9(); break;
         case 10: day10(); break;
         case 11: day11(); break;
+        case 12: day12(); break;
     }
     return 0;
 }

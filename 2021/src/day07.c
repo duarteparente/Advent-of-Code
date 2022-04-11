@@ -26,7 +26,7 @@ void day7(){
     int *positions = NULL; int counter = 0;
     char *line = NULL;
     size_t len = 0;
-    FILE *day7_file = fopen("inputs/day7.txt", "r");
+    FILE *day7_file = fopen("inputs/day07.txt", "r");
     getline(&line, &len, day7_file);
     fclose(day7_file);
     while(*line){

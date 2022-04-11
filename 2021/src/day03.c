@@ -64,7 +64,7 @@ void day3(){
     int i=0;
     char *line = NULL;
     size_t len = 0;
-    FILE *day3_file = fopen("inputs/day3.txt", "r");
+    FILE *day3_file = fopen("inputs/day03.txt", "r");
     while(getline(&line, &len, day3_file) != -1){
         bit = realloc(bit, (i+1)*sizeof(BIT));
         bit->lenght = strlen(line)-1;
