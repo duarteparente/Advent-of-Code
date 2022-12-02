@@ -5,7 +5,7 @@
 
 void show_input (int day){
     char file[30];
-    snprintf(file, 30, "inputs/day%d.txt", day);
+    snprintf(file, 30, "inputs/day%02d.txt", day);
     char opening[50];
     snprintf(opening, 50, "\n--------------- DAY %d ---------------\n", day);
     printf("%s" , opening);
@@ -14,7 +14,7 @@ void show_input (int day){
     FILE *input_file = fopen(file, "r");
     printf ("\n Input:\n +------------------------+\n");
     while(getline(&line, &len, input_file) != -1) printf ("  %s", line);
-    printf (" +------------------------+\n");
+    printf ("\n +------------------------+\n");
     fclose (input_file);
 }
 

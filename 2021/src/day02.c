@@ -17,7 +17,7 @@ void day2 (){
         switch (line[0]){
             case 'f': horizontal += (line[t-2] - '0'); break;
             case 'd': depth += (line[t-2] - '0'); break;
-            default: depth -= (line[t-2] - '0'); break;
+            case 'u': depth -= (line[t-2] - '0'); break;
         }
     }
     fclose (day2_file);
